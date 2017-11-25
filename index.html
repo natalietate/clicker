@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>clicker</title>
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/index.css">
-  </head>
-  <body>
-    
-    <!-- JavaScripts -->
-    <script src="js/index.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>clicker</title>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Supplies</h1>
+    <div class="panel supplies">
+      Marbles: <span id="marbles">0</span><br />
+      <button class="build" id="gather-marble">Gather</button>
+    </div>
+
+    <h3>Mosaics</h3>
+    <div class="panel mosaic">
+      Endless Sky: <span id="endless-sky">0</span><br />
+      <span class="info">Gathers 1 Marble / s</span><br />
+      <button class="build" id="build-endless-sky">Craft (10)</button>
+    </div>
+    <div class="panel mosaic">
+      Undersea: <span id="undersea">0</span><br />
+      <span class="info">Gathers 10 Marbles / s</span><br />
+      <button class="build" id="build-undersea">Build (250)</button>
+    </div>
+
+  </div>
+  <!-- JavaScripts -->
+  <script src="js/index.js"></script>
+</body>
+
 </html>
