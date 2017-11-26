@@ -6,17 +6,19 @@
 
 body {
   font-family: sans-serif;
-  font-size: 1em;
+  font-size: 1.5em;
+  color: white;
 }
 
-h1, h3 {
-  color: #074f83
+#background {
+  background: url('../img/andrew-ridley.jpg') no-repeat 50% 50% fixed;
+  background-size: cover;
 }
 
 .panel {
   padding: 5px;
   border-radius: 5px;
-  border: 1px solid #074f83;
+  border: 1px solid white;
   margin-bottom: 10px;
 }
 
@@ -29,5 +31,5 @@ h1, h3 {
   margin: 0 auto;
   text-align: center;
   padding: 120px 50px 120px 50px;
-  max-width: 50%
+  max-width: 40%
 }
